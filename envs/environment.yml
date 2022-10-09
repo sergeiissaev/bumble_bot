@@ -1,0 +1,11 @@
+name: "bumble_bot"
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - -r requirements.txt
+    - -r requirements-test.txt
+    - -r requirements-dev.txt
